@@ -1,0 +1,120 @@
+:root{
+    --MainBgColor: #804C3E;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+#root{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    margin-top: 4rem;
+}
+footer{
+    margin-top: auto;
+    min-height: 10vh;
+}
+.map{
+    position: relative;
+}
+.mapBox{
+    z-index: 2;
+    position: absolute;
+    height: 320px;
+    width: 520px;
+    background-color: #fff;
+    padding: 60px;
+    left: 50%;
+    top: 108px;
+}
+.PurchaseCondition{
+    margin: 10rem 0;
+}
+.display-flex{
+    display: flex;
+    align-items: center;
+}
+.display-flex-space-bitvin{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.w50Procent{
+    font-family: system-ui;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.2;
+}
+.StartSection{
+    min-height: 35vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 3vh;
+}
+.Delivery{
+    align-items: flex-end;
+}
+.DeliveryBox{
+    position: absolute;
+    padding: 90px;
+    background-color: rgb(238, 238, 238);
+    z-index: 100;
+    left: 19%;
+}
+.DeliveryBoxImg{
+    position: relative;
+}
+.DeliveryBox p{
+    margin: 3vh 0;
+    font-family: system-ui;   
+}
+
+@media screen and (max-width: 768px ) {
+    .mapBox{
+        position: static;
+    }
+    .display-flex{
+        flex-direction: column;
+    }
+    .w50Procent{
+        width: 100%;
+    }
+    .map{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .mapBox{
+        box-shadow: 0px 0px 6px rgb(122, 122, 122);;
+        padding: 20px;
+        width: 310px;
+        margin-bottom: 2vh;
+    }
+    .PurchaseCondition{
+        margin: 5rem 0;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .headerAppBar{
+        position: static;
+    }
+}
+@media screen and (max-width: 425px ) {
+    .navBarSm{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
