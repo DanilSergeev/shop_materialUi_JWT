@@ -17,9 +17,7 @@ function App() {
     { id: 0, name: "None one", price: 1000, img: process.env.REACT_APP_BASE_URL + "" },
   ])
 
-  const [listBascet, setListBascet] = useState([
-    // { id: 0, name: "Не сокрушимый надежный оплот, где Ленин нас к комунизму ведет", price: 1000, count: 1},
-  ])
+  const [listBascet, setListBascet] = useState([])
 
 
   const [isOpenSnack, setIsOpenSnack] = useState(false);
