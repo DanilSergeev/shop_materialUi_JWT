@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shop_materialUi_JWT/static/css/main.095d1867.css",
+    "main.js": "/shop_materialUi_JWT/static/js/main.9dc9a35a.js",
+    "static/media/dilvery.jpg": "/shop_materialUi_JWT/static/media/dilvery.dcc7eec2bf8b3ee00474.jpg",
+    "static/media/marmelad.jpg": "/shop_materialUi_JWT/static/media/marmelad.05389f076ad703256068.jpg",
+    "index.html": "/shop_materialUi_JWT/index.html",
+    "main.095d1867.css.map": "/shop_materialUi_JWT/static/css/main.095d1867.css.map",
+    "main.9dc9a35a.js.map": "/shop_materialUi_JWT/static/js/main.9dc9a35a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.095d1867.css",
+    "static/js/main.9dc9a35a.js"
+  ]
+}
